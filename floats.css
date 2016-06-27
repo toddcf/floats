@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box;
+  text-align: center;
+}
+
+/* Fill in your CSS Below */
+
+
+body {
+	font-size: 24px;
+	line-height: 32px;
+	color: #333;
+}
+
+header {
+
+	background: #ccc;
+	padding: 20px;
+	margin-bottom: 20px;
+	color: #333;
+}
+
+section {
+	background-color: #ccc;
+	padding: 20px;
+	margin-bottom: 20px;
+}
+
+#left {
+	float: left;
+	width: 33.3%;
+	background-color: #666;
+	color: #fff;
+}
+
+#middle {
+	float: left;
+	width: 33.3%;
+	background-color: #888;
+
+}
+
+#right {
+	float: left;
+	width: 33.3%;
+	background-color: #666;
+	color: #fff;
+}
+
+#full {
+	clear: both;
+	height: 250px;
+	width: 100%;
+	background-color: #eee;
+	overflow: auto;
+
+}
+
+#division {
+	background-color: #6ea3da;
+	padding: 20px;
+	margin-top: 40px;
+}
+
+aside {
+	float: left;
+	width: 33%;
+	margin-left: 30px;
+	height: 200px;
+	padding: 10px;
+	background-color: #fff;
+	border: 1px solid #eee;
+}
+
+footer {
+	clear: both;
+	padding: 20px;
+	background-color: #ccc;
+}
